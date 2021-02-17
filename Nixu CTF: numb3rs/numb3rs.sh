@@ -2,21 +2,21 @@
 #! /bin/bash
 
 arr=()
-mapfile -t arr < /home/kali/scripts/vars.txt
+mapfile -t arr < /home/kali/scripts/vars.txt   # using variables from the last iteration in case the script times out
 end=$((SECONDS+900))   # timed loop because end condition unclear
 
 while [ $SECONDS -lt $end ]; do
- var=0
- lost=false		
- sent=false
+	var=0
+	lost=false		
+	sent=false
  
- nc numb3rs.thenixuchallenge.com 1337 < /tmp/tmp.qhS32Q4cEL/fifoout > /home/kali/scripts/back.txt &
- ncpid=$!  # PID for later
+ 	nc numb3rs.thenixuchallenge.com 1337 < /tmp/tmp.qhS32Q4cEL/fifoout > /home/kali/scripts/back.txt &
+	ncpid=$!  # PID for later
 
- exec 3> /tmp/tmp.qhS32Q4cEL/fifoout
+	exec 3> /tmp/tmp.qhS32Q4cEL/fifoout
 
- sleep 1
- echo ${arr[$var]} >&3
+	sleep 1   # sleep is used to avoid disconnection
+	echo ${arr[$var]} >&3
 
 	while [ $lost = false ]; do			
 		if [ $((${#arr[@]} - 1 )) -gt $var ]; then 	
@@ -35,13 +35,12 @@ while [ $SECONDS -lt $end ]; do
 			arr+=($newnumber)	
 			lost=true			 
 		fi
-	done 	
+		done 	
 	
- kill $ncpid
- exec 3>&-
- sleep 0.5
+	kill $ncpid
+	exec 3>&-
+	sleep 0.5
+	
 done
 
-kill $ncpid
-exec 3>&-
 printf "%s\n" "${arr[@]}" > /home/kali/scripts/vars.txt
