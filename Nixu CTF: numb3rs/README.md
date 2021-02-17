@@ -1,6 +1,8 @@
 # numb3rs
 
 This was a simple scripting task to communicate with a server using netcat. Made with Bash.
-The goal was to find the right combination of numbers to send and get the flag. Upon failure the server tells you the right number you missed.
-My solution involved sending numbers from a text file through a fifo pipe using a loop, and adding new numbers to the text file iteratively.
+
+The goal was to find the right combination of numbers to send and get the flag. The numbers need to be sent to the server in the right order, within reasonable time (not too slow and not too fast). Upon failure the server tells you the right number you missed. This is ideally done with a single script.
+
+My solution involved sending the numbers with netcat, from a text file, through a fifo pipe with a loop, and adding new numbers to the text file iteratively.
 There are other ways to do this, but this is the solution I came up with.
