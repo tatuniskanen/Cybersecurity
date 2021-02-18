@@ -2,9 +2,9 @@
 
 tmpd=`mktemp -d`
 tmpf="$tmpd"/fifoout
-mkfifo "$tmpf"
+mkfifo "$tmpf"   #fifo pipe for netcat
 printf "%s\n" "$tmpf"   # printing the file path to fifo might be useful
->back.txt
+>back.txt   #text file to read and save the server response
 
 arr=(32)
 end=$((SECONDS+1500))   # timed loop because end condition unclear
@@ -25,8 +25,7 @@ while [ $SECONDS -lt $end ]; do
 		if [ $((${#arr[@]} - 1 )) -gt $var ]; then 	
 			sleep .3
 			let "var++"
-			echo ${arr[$var]} >&3
-			
+			echo ${arr[$var]} >&3	
 		else
 			sleep .3
 			echo ${arr[$var]} >&3
