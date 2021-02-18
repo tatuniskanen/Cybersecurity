@@ -42,4 +42,4 @@ while [ $SECONDS -lt $end ]; do
 	
 done
 
-printf "%s\n" "${arr[@]}" > /home/kali/scripts/vars.txt
+printf "%s\n" "${arr[@]}" > /home/kali/scripts/vars.txt   # printing the output into a text file for next iteration in case of timeout
