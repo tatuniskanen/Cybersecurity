@@ -26,7 +26,7 @@ while [ $SECONDS -lt $end ]; do
 	done
 	
 	sleep .3
-	echo ${arr[$var]} >&3
+	echo ${arr[$var]} >&3   # sending a wrong number to get the right one for next iteration
 			
 	sleep 1.5   # sleep here gives the server enough time to relay data
 	newnumber=`tail -n 2 /home/kali/Scripts/back.txt | head -n 1`
