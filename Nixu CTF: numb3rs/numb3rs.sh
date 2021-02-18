@@ -1,18 +1,22 @@
 #! /bin/bash
 
-arr=()
-mapfile -t arr < /home/kali/scripts/vars.txt   # using variables from the last iteration in case the script times out
-end=$((SECONDS+900))   # timed loop because end condition unclear
+tmpd=`mktemp -d`
+tmpf="$tmpd"/fifoout
+mkfifo "$tmpf"
+printf "%s\n" "$tmpf"   # printing the file path to fifo might be useful
+>back.txt
+
+arr=(32)
+end=$((SECONDS+1500))   # timed loop because end condition unclear
 
 while [ $SECONDS -lt $end ]; do
 	var=0
 	lost=false		
-	sent=false
  
- 	nc numb3rs.thenixuchallenge.com 1337 < /tmp/tmp.qhS32Q4cEL/fifoout > /home/kali/scripts/back.txt &
+ 	nc numb3rs.thenixuchallenge.com 1337 < "$tmpf" > /home/kali/Scripts/back.txt &
 	ncpid=$!  # PID for later
 
-	exec 3> /tmp/tmp.qhS32Q4cEL/fifoout
+	exec 3> "$tmpf"
 
 	sleep 1   # sleep is used to avoid disconnection
 	echo ${arr[$var]} >&3
@@ -22,15 +26,13 @@ while [ $SECONDS -lt $end ]; do
 			sleep .3
 			let "var++"
 			echo ${arr[$var]} >&3
-		
-		elif [ $sent = false ]; then
+			
+		else
 			sleep .3
 			echo ${arr[$var]} >&3
-			sent=true
-		
-		else
-			sleep 1.5
-			newnumber=`tail -n 2 /home/kali/scripts/back.txt | head -n 1`
+			
+			sleep 1.5   # sleep here gives the server enough time to relay data
+			newnumber=`tail -n 2 /home/kali/Scripts/back.txt | head -n 1`
 			arr+=($newnumber)	
 			lost=true			 
 		fi
@@ -42,4 +44,4 @@ while [ $SECONDS -lt $end ]; do
 	
 done
 
-printf "%s\n" "${arr[@]}" > /home/kali/scripts/vars.txt   # printing the output into a text file for next iteration in case of timeout
+rm -r "$tmpd"
