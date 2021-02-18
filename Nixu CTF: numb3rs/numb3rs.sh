@@ -15,7 +15,6 @@ while [ $SECONDS -lt $end ]; do
  
  	nc numb3rs.thenixuchallenge.com 1337 < "$tmpf" > /home/kali/Scripts/back.txt &
 	ncpid=$!  # PID for later
-
 	exec 3> "$tmpf"
 
 	sleep 1   # sleep is used to avoid disconnection
