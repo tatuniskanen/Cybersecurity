@@ -2,7 +2,7 @@
 
 This was an introductory exercise into the field of encryption. It involved the following message:
 
-**"NDc3NTc2NjYyMDY2NzI3MDY1NzI2NzIwNzY2NjIwNzc2ODY2NjcyMDZmNzI2NzZhNzI3MjYxMjA2ODY2M2EyMDQxNTY0YjQ4N2I3MjYxNzAzMDcxNzY2MTc0NWY3NjY2NWY2MTYyNjc1ZjY1NzIzNDc5Nzk2YzVmNzU3NjcxMzE2MTc0NWY2ZTYxNmM2Nzc1NzY2MTc0N2Q="
+**"NDc3NTc2NjYyMDY2NzI3MDY1NzI2NzIwNzY2NjIwNzc2ODY2NjcyMDZmNzI2NzZhNzI3MjYxMjA2ODY2M2EyMDQxNTY0YjQ4N2I3MjYxNzAzMDcxNzY2MTc0NWY3NjY2NWY2MTYyNjc1ZjY1NzIzNDc5Nzk2YzVmNzU3NjcxMzE2MTc0NWY2ZTYxNmM2Nzc1NzY2MTc0N2Q="**
 
 
 This is of course Base64. When converted into cleartext, it reveals the following message in Hexadecimal:
