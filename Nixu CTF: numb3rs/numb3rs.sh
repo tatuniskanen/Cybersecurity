@@ -30,8 +30,7 @@ while [ $SECONDS -lt $end ]; do
 			
 	sleep 1.5   # sleep here gives the server enough time to relay data
 	newnumber=`tail -n 2 /home/kali/Scripts/back.txt | head -n 1`
-	arr+=($newnumber)	
-	lost=true			 
+	arr+=($newnumber)				 
 		
 	kill $ncpid
 	exec 3>&-
