@@ -21,22 +21,20 @@ while [ $SECONDS -lt $end ]; do
 	sleep 1   # sleep is used to avoid disconnection
 	echo ${arr[$var]} >&3
 
-	while [ $lost = false ]; do			
-		if [ $((${#arr[@]} - 1 )) -gt $var ]; then 	
-			sleep .3
-			let "var++"
-			echo ${arr[$var]} >&3	
-		else
-			sleep .3
-			echo ${arr[$var]} >&3
-			
-			sleep 1.5   # sleep here gives the server enough time to relay data
-			newnumber=`tail -n 2 /home/kali/Scripts/back.txt | head -n 1`
-			arr+=($newnumber)	
-			lost=true			 
-		fi
-	done 	
+	while [ $((${#arr[@]} - 1 )) -gt $var ]; do		
+		sleep .3
+		let "var++"
+		echo ${arr[$var]} >&3	
+	done
 	
+	sleep .3
+	echo ${arr[$var]} >&3
+			
+	sleep 1.5   # sleep here gives the server enough time to relay data
+	newnumber=`tail -n 2 /home/kali/Scripts/back.txt | head -n 1`
+	arr+=($newnumber)	
+	lost=true			 
+		
 	kill $ncpid
 	exec 3>&-
 	sleep 0.5	
