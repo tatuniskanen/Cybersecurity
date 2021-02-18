@@ -39,8 +39,7 @@ while [ $SECONDS -lt $end ]; do
 	
 	kill $ncpid
 	exec 3>&-
-	sleep 0.5
-	
+	sleep 0.5	
 done
 
 rm -r "$tmpd"
