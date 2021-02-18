@@ -10,8 +10,7 @@ arr=(32)
 end=$((SECONDS+1500))   # timed loop because end condition unclear
 
 while [ $SECONDS -lt $end ]; do
-	var=0
-	lost=false		
+	var=0		
  
  	nc numb3rs.thenixuchallenge.com 1337 < "$tmpf" > /home/kali/Scripts/back.txt &
 	ncpid=$!  # PID for later
