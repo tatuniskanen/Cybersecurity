@@ -35,7 +35,7 @@ while [ $SECONDS -lt $end ]; do
 			arr+=($newnumber)	
 			lost=true			 
 		fi
-		done 	
+	done 	
 	
 	kill $ncpid
 	exec 3>&-
