@@ -9,14 +9,20 @@ Nixu: [alfa uniform yellow 1]
 
 ## Subjects:
 
-### Nixu CTF: 
+### Nixu CTF: Phishcap
 * Phishcap 
 * Networks
 * Wireshark
 * Malware
 
-### Nixu CTF: Bad memories Forensics, Memory dump analysis, Volatility 
+### Nixu CTF: Bad memories 
+* Forensics 
+* Memory dump analysis 
+* Volatility 
 
-### Nixu CTF: numb3rs Shellscripting, netcat
+### Nixu CTF: numb3rs 
+* Shellscripting
+*  netcat
 
-### Nixu CTF: The first secret Encryption
+### Nixu CTF: The first secret 
+* Encryption
