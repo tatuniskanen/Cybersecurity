@@ -10,10 +10,10 @@ Nixu: [alfa uniform yellow 1]
 ## Subjects:
 
 ### Nixu CTF: Phishcap
-* Phishcap 
 * Networks
 * Wireshark
 * Malware
+* Phishing
 
 ### Nixu CTF: Bad memories 
 * Forensics 
