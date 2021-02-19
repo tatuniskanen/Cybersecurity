@@ -2,10 +2,11 @@
 
 tmpd=`mktemp -d`
 tmpf="$tmpd"/fifoout
-mkfifo "$tmpf"   #fifo pipe for netcat
+mkfifo "$tmpf"   # fifo pipe for netcat
 printf "%s\n" "$tmpf"   # printing the file path to fifo might be useful
->back.txt   #text file to read and save the server response
+>back.txt   # text file to read and save the server output
 
+# deleting the tmp files and opening the output file
 function cleanup {
 	rm -r "$tmpd"
 	xdg-open back.txt
