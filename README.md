@@ -22,6 +22,7 @@ Nixu: [alfa uniform yellow 1]
 
 ### Nixu CTF: numb3rs 
 * Shellscripting
+* Bash
 * Netcat
 
 ### Nixu CTF: The first secret 
