@@ -36,7 +36,7 @@ while [ $SECONDS -lt $end ]; do
 	sleep .3
 	echo ${arr[$var]} >&3   # sending a wrong number to get the right one for next iteration
 			
-	sleep 1.5   # sleep here gives the server enough time to relay data
+	sleep 1.5   # sleep here needed to give the server enough time to relay data
 	newnumber=`tail -n 2 "back.txt" | head -n 1`
 	arr+=($newnumber)				 
 		
