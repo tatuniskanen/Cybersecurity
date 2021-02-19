@@ -7,12 +7,16 @@ Currenty most interested in forensics and looking into such projects.
 
 Nixu: [alfa uniform yellow 1]
 
-### Subjects:
+## Subjects:
 
-Phishcap: Networks, Wireshark, Malware
+### Nixu CTF: 
+* Phishcap 
+* Networks
+* Wireshark
+* Malware
 
-Bad memories: Forensics, Memory dump analysis, Volatility 
+### Nixu CTF: Bad memories Forensics, Memory dump analysis, Volatility 
 
-numb3rs: Shellscripting, netcat
+### Nixu CTF: numb3rs Shellscripting, netcat
 
-The first secret: Encryption
+### Nixu CTF: The first secret Encryption
