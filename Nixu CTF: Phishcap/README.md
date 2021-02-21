@@ -1,6 +1,6 @@
 # Phishcap
 
-## The assignment
+## Assignment
 
 https://thenixuchallenge.com/c/phishcap_part1/
 
