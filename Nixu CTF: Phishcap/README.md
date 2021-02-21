@@ -1,13 +1,10 @@
 # Phishcap
 
-This exercise is about learning to spot malicious network activity within a packet capture with wireshark, and follow up on it by dissecting and analyzing the threat. The exercise is divided into 6 parts, which I will document individually in seperate folders.
+This exercise is about learning to spot malicious network activity within a packet capture with wireshark, and follow up on it by dissecting and analyzing the threat. The exercise is divided into 6 parts, which I will document individually in seperate folders. Here I will document my findings and the exercise as a whole, as I would to a customer (I will expand on this as I make progress).
 
 ### Part 1
 
-
-
-Here I will document my findings and the exercise as a whole, as I would to a customer (I will expand on this as I make progress).
-
+* Analyzing the packet capture with wireshark to find the threat
 
 
 ## The report
