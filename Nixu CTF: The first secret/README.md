@@ -1,6 +1,6 @@
 # The first secret
 
-## Assignment: 
+## Assignment
 https://thenixuchallenge.com/c/encoded/
 
 ## Execution
