@@ -1,6 +1,6 @@
 # The first secret
 
-##Assignment: 
+## Assignment: 
 https://thenixuchallenge.com/c/encoded/
 
 This was an introductory exercise into the field of encryption. It involved the following message:
