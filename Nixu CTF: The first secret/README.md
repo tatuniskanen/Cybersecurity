@@ -3,6 +3,8 @@
 ## Assignment
 https://thenixuchallenge.com/c/encoded/
 
+"Are you totally new to these kind of challenges? Let's begin with a grammatical one. Can you decrypt this secret message?"
+
 ## Execution
 
 This was an introductory exercise into the field of encryption. It involved the following message:
