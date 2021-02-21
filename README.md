@@ -12,6 +12,7 @@ Nixu: [alfa uniform yellow 1]
 ### Nixu CTF: Phishcap
 * Networks
 * Wireshark
+* Packet capture analysis
 * Malware
 * Phishing
 
