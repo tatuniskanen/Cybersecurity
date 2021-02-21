@@ -5,7 +5,7 @@ https://thenixuchallenge.com/c/bad_memories_part1/
 
 "The lead graphical designer at ACME has noticed some kind of strange activity on her computer. Their IT support believes it is a false positive and the computer will fix itself after turning it off and on again. However, the user managed to take a memory dump just before the crash. **Could you help us recover the documentation she was working on?**"
 
-In the first part of this exercise you are asked to retrieve a document from a memory dump. 
+In the first part of this exercise you are asked to retrieve a text document from a memory dump. 
 
 ## Execution
 
