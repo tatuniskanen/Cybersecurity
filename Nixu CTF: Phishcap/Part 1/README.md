@@ -1,6 +1,8 @@
 # Phishcap part 1
 
 ## Assignment 
+https://thenixuchallenge.com/c/phishcap_part1/
+
 "You have received a call from a customer (ACME) saying that there has been an accident at their factory and they want you to rule out any foul play. They have provided a packet capture for you and said that there have been many spear phishing attempts as of late targeting their company."
 
 Hint: "I may be the source of infection. Can you find and dissect me?"
