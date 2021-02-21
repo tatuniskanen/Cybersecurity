@@ -1,10 +1,17 @@
 # Phishcap
 
-This exercise is about learning to spot malicious network activity within a packet capture with wireshark, and follow up on it by dissecting and analyzing the threat. The exercise is divided into 6 parts, which I will document individually in seperate folders. Here I will document my findings and the exercise as a whole, as I would to a customer (I will expand on this as I make progress).
+## The assignment
+
+https://thenixuchallenge.com/c/phishcap_part1/
+
+"You have received a call from a customer (ACME) saying that there has been an accident at their factory and they want you to rule out any foul play. They have provided a packet capture for you and said that there have been many spear phishing attempts as of late targeting their company."
+
+This exercise is about learning to spot malicious network activity within a packet capture with wireshark, and follow up on it by dissecting and analyzing the threat. The exercise is divided into 6 parts, which I will document individually in seperate folders. Here I will document my findings and the exercise as a whole in the report below, as I would to a customer (I will expand on this as I make progress).
 
 ### Part 1
 
-* Analyzing the packet capture with wireshark to find the threat
+* Analyzing the packet capture with wireshark to find the threat.
+* Dissecting the threat
 
 
 ## The report
