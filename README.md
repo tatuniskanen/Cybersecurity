@@ -20,6 +20,7 @@ Nixu: [alfa uniform yellow 1]
 * Forensics 
 * Memory dump analysis 
 * Volatility 
+* Data recovery
 
 ### Nixu CTF: numb3rs 
 * Shellscripting
