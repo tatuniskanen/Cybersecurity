@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<BorderPane xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fi.jyu.mit.fxgui.ModalController">
+   <center>
+      <GridPane prefHeight="192.0" prefWidth="489.0" BorderPane.alignment="CENTER">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="190.0" minWidth="0.0" prefWidth="0.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="570.0" minWidth="10.0" prefWidth="544.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="166.0" minWidth="10.0" prefWidth="39.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="126.0" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="165.0" minHeight="10.0" prefHeight="80.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="214.0" minHeight="10.0" prefHeight="112.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <TextField prefHeight="47.0" prefWidth="479.0" text="Tekijät: Taina Patrikainen ja Tatu Niskanen" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextArea prefHeight="146.0" prefWidth="479.0" text="Tällä sovelluksella voit tallentaa omia lempikappaleitasi. Lisää kappaletta tallentaessasi&#10;myös artisti ja albumi. Sovelluksen hakutoiminnolla voit etsiä kappaleita artistin, &#10;albumin ja kappaleen nimen perusteella. Kappaleisiin voi myös antaa keston, &#10;julkaisuvuoden ja &quot;rankin&quot;, jolla ilmaistaan kappaleen hyvyyttä. Kappaleiden tietoja&#10;voit muokata myös lisäämisen jälkeen, ja poistaa halutessasi. (Versio 7.0)" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+         </children>
+      </GridPane>
+   </center>
+</BorderPane>

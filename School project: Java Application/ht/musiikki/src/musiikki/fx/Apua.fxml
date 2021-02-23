@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="182.0" prefWidth="509.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextArea layoutX="91.0" layoutY="63.0" prefHeight="56.0" prefWidth="328.0" text="                         Käyttöohjeet ja lisätietoja: &#10;  https://tim.jyu.fi/view/kurssit/tie/ohj2/2019k/ht/taaunisk" />
+   </children>
+</Pane>

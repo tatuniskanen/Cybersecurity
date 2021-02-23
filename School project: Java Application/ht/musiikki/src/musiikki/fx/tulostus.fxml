@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="497.0" prefWidth="354.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="musiikki.fx.TulostusController">
+   <center>
+      <TextArea fx:id="tulostusAlue" prefHeight="200.0" prefWidth="200.0" text="Valitut lempikappaleet:&#10;--------------------------------------------------------&#10;--------------------------------------------------------&#10;&#10;Kappaleen nimi&#9;:&#9;Viisu&#10;Artististi&#9;&#9;&#9;:&#9;JVG&#10;Albumi&#9;&#9;&#9;:&#9;Hiiohoi&#10;Julkaisuvuosi&#9;&#9;:&#9;2013&#10;Kesto&#9;&#9;&#9;:&#9;3:13&#10;&#10;--------------------------------------------------------&#10;&#10;Kappaleen nimi&#9;:&#9;Luikautus&#10;Artististi&#9;&#9;&#9;:&#9;Cheeck&#10;Albumi&#9;&#9;&#9;:&#9;Kauneimmat joululaulut&#10;Julkaisuvuosi&#9;&#9;:&#9;2015&#10;Kesto&#9;&#9;&#9;:&#9;3:31&#10;&#10;--------------------------------------------------------&#10;&#10;Kappaleen nimi&#9;:&#9;Laulu&#10;Artististi&#9;&#9;&#9;:&#9;Sanni&#10;Albumi&#9;&#9;&#9;:&#9;Heimoi&#10;Julkaisuvuosi&#9;&#9;:&#9;2017&#10;Kesto&#9;&#9;&#9;:&#9;2:55&#10;&#10;--------------------------------------------------------&#10;&#10;Kappaleen nimi&#9;:&#9;Joutsenet&#10;Artististi&#9;&#9;&#9;:&#9;PMMP&#10;Albumi&#9;&#9;&#9;:&#9;Mitä välii&#10;Julkaisuvuosi&#9;&#9;:&#9;2002&#10;Kesto&#9;&#9;&#9;:&#9;3:01&#10;&#10;--------------------------------------------------------&#10;&#10;Kappaleen nimi&#9;:&#9;Hard rock hallelujah&#10;Artististi&#9;&#9;&#9;:&#9;Lordi&#10;Albumi&#9;&#9;&#9;:&#9;Hard Rock&#10;Julkaisuvuosi&#9;&#9;:&#9;2002&#10;Kesto&#9;&#9;&#9;:&#9;3:01&#10;&#10;--------------------------------------------------------&#10;--------------------------------------------------------" BorderPane.alignment="CENTER" />
+   </center>
+   <bottom>
+      <ButtonBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <buttons>
+          <Button mnemonicParsing="false" onAction="#handleTulosta" prefHeight="26.0" prefWidth="159.0" text="Tulosta" />
+        </buttons>
+         <BorderPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </BorderPane.margin>
+      </ButtonBar>
+   </bottom>
+</BorderPane>
