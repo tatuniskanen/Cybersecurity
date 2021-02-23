@@ -3,6 +3,6 @@
 This folder is for my cybersecurity related Python projects. 
 
 ### Password cracker
-* a simple password cracker
-* expanding on it currently
-* showcases understanding of Python basics
+* A simple password cracker
+* Expanding on it currently
+* Showcases understanding of Python basics
