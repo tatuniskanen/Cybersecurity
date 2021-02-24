@@ -8,6 +8,8 @@ The naming conventions were in finnish, and are a bit weird sometimes, like the 
 
 The GUI is designed with an UI-designer called JavaFX.
 
+For more information about the project: https://tim.jyu.fi/view/kurssit/tie/ohj2/2019k/ht/taaunisk#mtypuo4cyMgg
+
 ## What it showcases / What I learned
 * Object oriented programming
 * Extending classes
