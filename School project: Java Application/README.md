@@ -9,10 +9,10 @@ The naming conventions were in finnish, and are a bit weird sometimes, like the 
 The GUI is designed with an UI-designer called JavaFX.
 
 ## What it showcases / What I learned
-* Interfaces
-* Extending classes
 * Object oriented programming
+* Extending classes
+* Interfaces
 * Developing a program with multiple classes
-* Good commenting practices
+* Good commenting practice
 * Good showcase of Java basics (loops, functions, etc.)
 * Tests
