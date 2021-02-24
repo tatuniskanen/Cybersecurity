@@ -19,3 +19,4 @@ For more information about the project: https://tim.jyu.fi/view/kurssit/tie/ohj2
 * Good showcase of Java basics (loops, functions, etc.)
 * Tests
 * Understanding the architecture (what pieces are in a Java application and how they relate to each other)
+* Designing and implementing the data structure
