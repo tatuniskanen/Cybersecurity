@@ -30,3 +30,6 @@ Nixu: [alfa uniform yellow 1]
 
 ### Nixu CTF: The first secret 
 * Encryption
+
+### Python projects
+* Password cracker (basics of Python programming)
