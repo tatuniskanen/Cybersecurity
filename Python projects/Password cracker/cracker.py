@@ -1,6 +1,8 @@
 import itertools
 import string
 
+# A naive password cracker to be expanded upon
+
 def guess_password(real):
     chars = string.ascii_lowercase + string.ascii_uppercase + string.digits
     attempts = 0
