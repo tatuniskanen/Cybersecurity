@@ -16,3 +16,4 @@ The GUI is designed with an UI-designer called JavaFX.
 * Good commenting practice
 * Good showcase of Java basics (loops, functions, etc.)
 * Tests
+* Understanding the architecture (what pieces are in a Java application and how they relate to each other)
