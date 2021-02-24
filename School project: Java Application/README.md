@@ -6,4 +6,11 @@ The application is a music registry, for the user to save names of songs. It's n
 
 The naming conventions were in finnish, and are a bit weird sometimes, like the main folder of the program being called "musiikki". The program utilizes quite a few specific libraries and imports that were used on the course, so it may take some work to get running.
 
-Utilizes interfaces, extending classes, object oriented programming, and is a good showcase of the basics of Java (such as loops and functions). The GUI is designed with an UI-designer called JavaFX.
+## What it showcases / What I learned
+* Interfaces
+* Extending classes
+* Object oriented programming
+* Developing a program with multiple classes
+* Good showcase of Java basics (loops, functions, etc..)
+
+The GUI is designed with an UI-designer called JavaFX.
