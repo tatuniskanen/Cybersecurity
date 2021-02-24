@@ -34,7 +34,7 @@ Nixu: [alfa uniform yellow 1]
 ### Python projects
 * Password cracker (basics of Python programming)
 
-### School project: Java application
+### School project: Java Application
 * Not really related to cybersecurity, but shows some programming understanding
 
 
