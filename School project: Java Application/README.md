@@ -13,4 +13,6 @@ The GUI is designed with an UI-designer called JavaFX.
 * Extending classes
 * Object oriented programming
 * Developing a program with multiple classes
+* Good commenting practices
 * Good showcase of Java basics (loops, functions, etc.)
+* Tests
