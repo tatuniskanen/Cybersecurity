@@ -1,8 +1,10 @@
 import itertools
 import string
 
-# A naive password cracker to be expanded upon
+password = raw_input("Give a password: ")
 
+# A naive password cracker to be expanded upon
+# Still lacking a lot
 def guess_password(real):
     chars = string.ascii_lowercase + string.ascii_uppercase + string.digits
     attempts = 0
@@ -14,4 +16,4 @@ def guess_password(real):
                 return 'password is {}. found in {} guesses.'.format(guess, attempts)
             print(guess, attempts)
 
-print(guess_password('Tat1'))
+print(guess_password(password))
